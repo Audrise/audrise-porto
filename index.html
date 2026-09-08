@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Modern personal portfolio">
+  <title>Audrise Portofolio</title>
+  
+  <link rel="icon" type="image/png" href="assets/images/audra.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+    <div class="container-fluid px-3 px-lg-4">
+      <a class="navbar-brand fw-bold fs-2" href="#home">Audrise<span>.</span></a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav mx-auto gap-lg-3">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <span class="eyebrow">Hello, I'm</span>
+            <h1 class="display-2 fw-bold mt-3 mb-2">Audrise</h1>
+            <h2 class="hero-role">Software Developer</h2>
+            <p class="hero-copy mt-4">
+              I build modern, responsive, and user-friendly applications
+              with a focus on clean code, flexible, and thoughtful design.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="btn btn-primary btn-lg px-4">
+                View My Work
+              </a>
+              <!-- <a href="#" class="btn btn-outline-secondary btn-lg px-4">
+                <i class="bi bi-download me-2"></i>Download CV -->
+              </a>
+            </div>
+
+            <div class="socials mt-4">
+              <a href="https://github.com/Audrise" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://Instagram.com/audris.jar" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card">
+              <div class="hero-orb orb-one"></div>
+              <div class="hero-orb orb-two"></div>
+              <div class="avatar-placeholder">
+                <img src="assets/images/audra.png" alt="me">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="about-copy">
+              <p>
+                I'm a Python developer who enjoys building useful tools, automating repetitive tasks, and turning ideas into practical projects.
+                Most of my work is driven by curiosity, continuous learning, and the joy of creating something from scratch.
+              </p>
+              <p>
+                My current focus is building reliable applications with
+                modern web technologies and clean architecture.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="row g-3 h-100">
+              <div class="col-md-4">
+                <div class="stat-card">
+                  <i class="bi bi-calendar3"></i>
+                  <strong>1+</strong>
+                  <small>Years Experience</small>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="stat-card">
+                  <i class="bi bi-code-slash"></i>
+                  <strong>10+</strong>
+                  <small>Projects Completed</small>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="stat-card">
+                  <i class="bi bi-layers"></i>
+                  <strong>8+</strong>
+                  <small>Technologies</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>Python</span><b>92%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:92%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>C</span><b>50%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:50%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>C++</span><b>58%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:58%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>JavaScript</span><b>50%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:50%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>PHP</span><b>35%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:35%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>HTML & CSS</span><b>90%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>Git & GitHub</span><b>85%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>SQL</span><b>75%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:75%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>PySide6</span><b>30%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:30%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>Bootstrap</span><b>40%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:40%"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <div class="skill-title"><span>Laravel</span><b>30%</b></div>
+              <div class="progress"><div class="progress-bar" style="width:30%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-muted">
+      <div class="container">
+        <div class="section-heading d-flex justify-content-between align-items-end">
+          <div>
+            <h2>Projects</h2>
+          </div>
+          <!-- <a href="#" class="btn btn-sm btn-outline-primary d-none d-md-inline-block">View All</a> -->
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-preview preview-dark">
+                <div class="project-preview-content">
+                  <span>FF<span>AUX</span></span>
+                </div>
+              </div>
+              <div class="p-4">
+                <div class="project-type">Desktop Application</div>
+                <h3>FFAUX <span class="project-status">(Under Development)</span></h3>
+                <p>Audio processing utility built with Python, PySide6, and FFmpeg.</p>
+                <div class="project-footer">
+                  <span>Python</span><span>PySide6</span>
+                  <a href="404.html">View <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card">
+              <div class="project-preview preview-dark">
+                <div class="project-preview-content">
+                  <span>Java<span>Flood</span></span>
+                </div>
+              </div>
+              <div class="p-4">
+                <div class="project-type">Utility</div>
+                <h3>JavaFlood</h3>
+                <p>Minecraft Java TCP Flooder</p>
+                <div class="project-footer">
+                  <span>Python</span>
+                  <a href="https://github.com/Audrise/javaflood" target="_blank" >View <i class="bi bi-arrow-up-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2023 — 2026</div>
+            <div>
+              <h3>Software Engineering & Development</h3>
+              <p>SMK Al Muhadjirin, Bekasi</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2020 — 2023</div>
+            <div>
+              <h3>SMPIT Al Fatah, Bekasi</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="experience" class="section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2025 — Present</div>
+            <div><h3>Software Engineering & Development</h3><p>Building desktop and web applications with a focus on maintainability and user experience.</p></div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2024 — 2024</div>
+            <div><h3>Land Administration Document Validation Assistant</h3><p>Assisted in reviewing and validating land administration documents, ensuring the completeness and accuracy of required documents before further processing.</p></div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2023 — 2024</div>
+            <div><h3>Junior Developer</h3><p>Learn the basics of programming languages.</p></div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">2022 — 2023</div>
+            <div><h3>Student Council President</h3><p>Led the student council in planning and organizing school activities, coordinating with students and staff, and managing various student programs. Developed leadership, communication, teamwork, and organizational skills through hands-on experience.</p></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Contact</h2>
+        </div>
+
+          <div class="contact-card">
+            <div>
+              <h2 class="display-6 fw-bold mt-3">Let's build something useful.</h2>
+              <p class="mb-0">Have a project, idea, or collaboration in mind? Let's talk.</p>
+            </div>
+            <a class="btn btn-primary btn-lg" href="https://github.com/Audrise" target="_blank">
+              Get In Touch <i class="bi bi-github ms-2"></i>
+            </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-center gap-2">
+      <span>© 2026 Audrise. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
