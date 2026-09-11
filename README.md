@@ -1,4 +1,4 @@
-# Portoboot
+# Simple porto with bootstrap
 
 A personal portfolio website showcasing my background, skills, projects, and experience wtih bootstrap.
 
